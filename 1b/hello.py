@@ -9,7 +9,7 @@ def index():
 
 @app.route('/user/<name>')
 def user(name):
-    return '<h1>Hello, {0}!</h1>'.format(name)
+    return '<h1>Hello, {0}! Say "Hi!" to your mother for me!!</h1>'.format(name)
 
 
 if __name__ == '__main__':
